@@ -4,14 +4,14 @@ import Router from 'ractivejs-router';
 // to avoid debug info
 // Ractive.DEBUG = false;
 
-import AppTmpl from '../tmpls/app.html';
+// import AppTmpl from '../tmpls/app.mustache';
 import Menu from './components/layout/menu';
 import Footer from './components/layout/footer';
 import routesConfig from './routes/router';
 
 const App = new Ractive({
 	el: '#ractiveApp',
-	template: AppTmpl,
+	template: require('../tmpls/app.mustache'),
 	components: {
 		Menu,
 		Router,

@@ -1,5 +1,5 @@
 import Ractive from 'ractive';
-import HomePageTmpl from '../../tmpls/pages/home-page.html';
+import HomePageTmpl from '../../tmpls/pages/home-page.mustache';
 
 export default Ractive.extend({
     template: HomePageTmpl,

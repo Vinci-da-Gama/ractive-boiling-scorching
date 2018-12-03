@@ -1,5 +1,5 @@
 import Ractive from 'ractive';
-import MenuTmpl from '../../../tmpls/layout/menu.html';
+import MenuTmpl from '../../../tmpls/layout/menu.mustache';
 
 export default Ractive.extend({
 	template: MenuTmpl,
